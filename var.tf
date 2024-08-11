@@ -84,3 +84,10 @@ variable "instance_tags_1" {
     Name = "jenkins_public"
   }
 }
+variable "instance_tags_2" {
+  description = "Tags to apply to the EC2 instance"
+  type        = map(string)
+  default = {
+    Name = "jenkins_public_2"
+  }
+}
