@@ -44,6 +44,3 @@ resource "aws_s3_bucket_website_configuration" "mywebapp" {
   }
 }
 
-output "bucket_website_endpoint" {
-  value = aws_s3_bucket.my-bucket.website_endpoint
-}
