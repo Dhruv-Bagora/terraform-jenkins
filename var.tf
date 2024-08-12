@@ -88,6 +88,6 @@ variable "instance_tags_2" {
   description = "Tags to apply to the EC2 instance"
   type        = map(string)
   default = {
-    Name = "Jenkins_public_instance_test"
+    Name = "Jenkins_public_instance_test_oncemore"
   }
 }
