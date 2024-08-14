@@ -88,6 +88,6 @@ variable "instance_tags_2" {
   description = "Tags to apply to the EC2 instance"
   type        = map(string)
   default = {
-    Name = "This is Test instance"
+    Name = "This_is_my_test_instance"
   }
 }
